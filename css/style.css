@@ -1,0 +1,153 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    background-color: #CEEFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'Helvetica';
+}
+
+.navbar{
+    overflow: hidden;
+    display: flex;
+    padding-top: 5%;
+}
+
+.navbar a{
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.content{
+    background-color: #00b8F1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Helvetica';
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.component1 img{
+    padding-left: 20%;
+}
+
+.text{
+    text-align: center;
+    padding-left: 37%;
+    font-size: 20px;
+}
+
+.text p{
+    align-items: center;
+}
+
+.place{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.data{
+    border-style: solid;
+    border-color: black; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    text-align: center;
+}
+
+.alarm{
+    border-style: solid;
+    border-color: black; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+#done{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    background-color: mediumblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#sup, #log{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    background-color: mediumblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#name{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.loginbox input[type="name"], input[type="email"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+#sup:hover{
+    background-color: #CEEFFF;
+    transition: 0.3s;
+    color: black;
+}
+
+#log:hover{
+    background-color: #CEEFFF;
+    transition: 0.3s;
+    color: black;
+}
+
+#done:hover{
+    background-color: #CEEFFF;
+    transition: 0.3s;
+    color: black;
+}
+
+.footer{
+    background-color: #00b8F1;
+    display: flex;
+}

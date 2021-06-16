@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinkly</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../script.js">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="../html/index.html" class="href">
+                <img src="../image/logo.jpg" width="150px",alt="">
+            </a>
+        </div>
+
+        <div class="navbar">
+            <div class="signUp">
+                <a href="SignUp.html" class="href">
+                    Sign Up  
+                </a>
+            </div>
+            <div class="signIn">
+                <a href="SignIn.html" class="href">
+                    Sign In    
+                </a>
+            </div>
+            <div class="Profile">
+                <a href="Profile.html" class="href">
+                    Profile
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="title">
+            <h1>
+                SIGN UP PAGE
+            </h1>
+        </div>
+        <div class="form">
+            <form action="formData">
+                <br><br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input type="name" name="name" id="name" placeholder="Enter Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Enter Email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" placeholder="Enter Password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" value="Sign Up" id="sup" onclick="validateAll()">  
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="../image/bg.png" width ="500px">
+        <img src="../image/bg.png" width ="500px">
+        <img src="../image/bg.png" width ="500px">  
+    </div>
+</body>
+</html>
